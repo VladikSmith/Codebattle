@@ -6,6 +6,7 @@
   prerequisites:
     Открыта страница регистрации
   test-data: |
+    Nickname - tester
     Email - tester01@gmail.com
     Password - tester123
   steps:
@@ -24,7 +25,8 @@
   prerequisites:
     Открыта страница авторизации
   test-data: |
-    no-data
+    Email - tester01@gmail.com
+    Password - tester123
   steps:
     - Вводим почту
     - Вводим пароль
