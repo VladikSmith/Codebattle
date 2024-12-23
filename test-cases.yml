@@ -39,7 +39,7 @@
   requirement: |
     При корректном заполнении данных пользователь авторизуется через аккаунт GitHub
   prerequisites:
-    Открыта страница авторизации
+    no-data
   test-data: |
     no-data
   steps:
@@ -54,7 +54,7 @@
   requirement: |
     При корректном заполнении данных пользователь авторизуется через аккаунт Discord
   prerequisites:
-    Открыта страница авторизации
+    no-data
   test-data: |
     no-data
   steps:
@@ -113,7 +113,7 @@
   requirement: |
     При вводе почты пользователя, который не зарегистрирован на сайте, получаем ошибку
   prerequisites:
-    Открыта страница восстановления пароля
+    no-data
   test-data: |
     no-data
   steps:
@@ -141,8 +141,7 @@
   requirement: |
     Пользователь переходит на страницу Codebattle на GitHub
   prerequisites:
-    Открыта главная страница
-    Пользователь не авторизован
+    no-data
   test-data: |
     no-data
   steps:
@@ -155,8 +154,7 @@
   requirement: |
     Пользователь переходит на страницу Battle Asserts на GitHub
   prerequisites:
-    Открыта главная страница
-    Пользователь не авторизован
+    no-data
   test-data: |
     no-data
   steps:
@@ -169,8 +167,7 @@
   requirement: |
     Пользователь переходит на страницу Chrome extension на GitHub
   prerequisites:
-    Открыта главная страница
-    Пользователь не авторизован
+    no-data
   test-data: |
     no-data
   steps:
@@ -183,7 +180,6 @@
   requirement: |
     Пользователь создает новую игру
   prerequisites:
-    Открыта главная страница
     Пользователь авторизован
   test-data: |
     no-data
@@ -198,7 +194,6 @@
   requirement: |
     Пользователь создает новую игру с выбранными параметрами
   prerequisites:
-    Открыта главная страница
     Пользователь авторизован
   test-data: |
     no-data
