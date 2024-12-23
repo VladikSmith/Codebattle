@@ -71,13 +71,286 @@
     Приглашение в игру другого пользователя
   status: pass 
 
+- summary: |
+    Отмена приглашения в игру другого пользователя
+  status: pass 
 
+- summary: |
+    Принятие приглашения в игру от другого пользователя
+  status: pass 
 
+- summary: |
+    Отказ от приглашения в игру от другого пользователя
+  status: pass 
 
+- summary: |
+    Проверка кнопки "Lobby"
+  status: pass 
 
+- summary: |
+    Проверка кнопки "Tournaments"
+  status: pass   
 
+- summary: |
+    Проверка кнопки "Show" на вкладке "Tournaments"
+  status: pass   
 
+- summary: |
+    Проверка кнопки "Tournaments Info" на вкладке "Tournaments"
+  status: pass   
 
+- summary: |
+    Создание турнира
+  status: pass   
 
+- summary: |
+    Проверка поля ввода имени турнира при создании
+  status: pass   
 
+- summary: |
+    Проверка фильтра с типом турнира при создании
+  status: pass   
+
+- summary: |
+    Проверка описания турнира при создании
+  status: pass   
   
+- summary: |
+    Проверка фильтра с выбором даты и времени начала турнира при создании
+  status: pass   
+
+- summary: |
+    Проверка фильтра типа доступа к турниру при создании
+  status: pass   
+
+- summary: |
+    Проверка фильтра стратегии турнира при создании
+  status: pass   
+
+- summary: |
+    Проверка фильтра очков при создании
+  status: pass   
+
+- summary: |
+    Проверка кнопки использования чата при создании
+  status: pass   
+
+- summary: |
+    Проверка кнопки использования таймера при создании
+  status: pass   
+
+- summary: |
+    Проверка фильтров "Task provider" при создании
+  status: pass   
+
+- summary: |
+    Проверка фильтра с максимальным количеством игроков при создании
+  status: pass   
+
+- summary: |
+     Проверка фильтра выбора языка программирования при создании
+  status: pass  
+
+- summary: |
+    Проверка ввода времени таймаута матча в секундах при создании
+  status: pass  
+
+- summary: |
+     Проверка ввода времени перерыва в секундах при создании
+  status: pass  
+
+- summary: |
+     Проверка кнопки "History"
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Show" на вкладке "History"
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Week" в таблице "Leaderboard"
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Month" в таблице "Leaderboard"
+  status: pass  
+
+- summary: |
+     Проверка кнопки "All" в таблице "Leaderboard"
+  status: pass  
+
+- summary: |
+     Просмотр профиля пользователя во вкладке LOBBY
+  status: pass  
+
+- summary: |
+     Просмотр профиля пользователя во вкладке HISTORY
+  status: pass  
+
+- summary: |
+     Просмотр профиля пользователя в таблице LEADERBOARD
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Top list" в таблице "Leaderboard"
+  status: pass  
+
+- summary: |
+     Проверка кнопки "weekly" на странице рейтинга пользователей
+  status: pass  
+
+- summary: |
+     Проверка кнопки "monthly" на странице рейтинга пользователей
+  status: pass  
+
+- summary: |
+     Проверка кнопки "total" на странице рейтинга пользователей
+  status: pass  
+
+- summary: |
+     Поиск пользователей по имени на странице рейтинга пользователей
+  status: pass  
+
+- summary: |
+     Проверка фильтра количества отображаемых пользователей на странице
+  status: pass  
+
+- summary: |
+     Проверка кнопки "With bots"
+  status: pass  
+
+- summary: |
+     Просмотр профиля пользователя на странице рейтинга пользователей
+  status: pass  
+
+- summary: |
+     Проверка фильтрации пользователей по рангу
+  status: pass  
+
+- summary: |
+     Проверка фильтрации пользователей по рейтингу
+  status: pass  
+
+- summary: |
+     Проверка фильтрации пользователей по количество сыгранных игр
+  status: pass  
+
+- summary: |
+     Проверка фильтрации пользователей по дате регистрации
+  status: pass  
+
+- summary: |
+     Проверка перехода на страницу GitHub пользователя на странице рейтинга игроков
+  status: pass  
+
+- summary: |
+     Проверка кнопок выбора страницы с игроками на странице рейтинга игроков
+  status: pass  
+
+- summary: |
+     Проверка кнопки приглашенных игр
+  status: pass  
+
+- summary: |
+     Проверка меню
+  status: pass  
+
+- summary: |
+     Переход на страницу своего профиля
+  status: pass  
+
+- summary: |
+     Проверка кнопки статистики на странице своего профиля
+  status: pass  
+
+- summary: |
+     Проверка кнопки завершенных игр на странице своего профиля
+  status: pass  
+
+- summary: |
+     Просмотр профиля пользователя с которым участвовал в игре
+  status: pass  
+
+- summary: |
+     Просмотр завершенной игры на странице с завершенными играми
+  status: pass  
+
+- summary: |
+     Переход в настройки своего профиля
+  status: pass  
+
+- summary: |
+     Смена имени пользователя в настройках своего профиля
+  status: pass  
+
+- summary: |
+     Смена языка программирования в настройках своего профиля
+  status: pass  
+
+- summary: |
+     Смена клана в настройках своего профиля
+  status: pass  
+
+- summary: |
+     Проверка кнопок выбора звука в настройках своего профиля
+  status: pass  
+
+- summary: |
+     Проверка микшера громкости в настройках своего профиля
+  status: pass  
+
+- summary: |
+     Привязка аккаунта GitHub к профилю сайта
+  status: pass  
+
+- summary: |
+     Привязка аккаунта Discord к профилю сайта
+  status: pass  
+
+- summary: |
+     Переход на страницу рейтинга игроков из меню
+  status: pass  
+
+- summary: |
+      Переход на страницу задач из меню
+  status: pass  
+
+- summary: |
+     Создание задачи на странице задач
+  status: pass  
+
+- summary: |
+     Переход на страницу пакетов задач
+  status: pass  
+
+- summary: |
+     Просмотр задачи
+  status: pass  
+
+- summary: |
+     Переход на страницу турниров из меню
+  status: pass  
+
+- summary: |
+     Просмотр турнира
+  status: pass  
+
+- summary: |
+     Переход на страницу GitHub с репозиторием сайта из меню
+  status: pass  
+
+- summary: |
+     Переход на страницу Hexlet из меню
+  status: pass  
+
+- summary: |
+     Переход на страницу Discord из меню
+  status: pass  
+
+- summary: |
+     Переход на страницу Telegram из меню
+  status: pass  
+
+- summary: |
+     Выход из аккаунта
+  status: pass  
