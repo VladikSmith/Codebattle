@@ -1,0 +1,83 @@
+---
+- summary: |
+    Проверка успешной регистрации пользователя с помощью Email
+  status: pass
+
+- summary: |
+    Проверка успешного входа пользователя с помощью Email
+  status: pass
+
+- summary: |
+    Проверка успешного входа пользователя с помощью GitHub
+  status: pass
+
+- summary: |
+    Проверка успешного входа пользователя с помощью Discord
+  status: pass 
+
+- summary: |
+    Проверка регистрации пользователя с пустыми полями
+  status: pass 
+
+- summary: |
+    Проверка входа пользователя с несуществующими почтой и паролем
+  status: pass 
+
+- summary: |
+    Проверка восстановления пароля существующего пользователя
+  status: pass 
+
+- summary: |
+    Проверка восстановления пароля несуществующего пользователя
+  status: pass 
+
+- summary: |
+     Проверка входа в игру без регистрации на главном экране
+  status: pass 
+
+- summary: |
+     Проверка кнопки "Codebattle" в разделе {{Contributors}} на главном экране
+  status: pass 
+
+- summary: |
+     Проверка кнопки "Battle Asserts" в разделе {{Contributors}} на главном экране
+  status: pass 
+
+- summary: |
+     Проверка кнопки "Chrome extension" в разделе {{Contributors}} на главном экране
+  status: pass 
+
+- summary: |
+     Создание игры
+  status: pass 
+
+- summary: |
+    Попарное тестирование параметров игры при создании
+  status: pass 
+
+- summary: |
+    Проверка кнопки "Fight"
+  status: pass 
+
+- summary: |
+   Проверка отправки сообщений в общий чат
+  status: pass 
+
+- summary: |
+   Отправка личного сообщения другому пользователю
+  status: pass 
+
+- summary: |
+    Приглашение в игру другого пользователя
+  status: pass 
+
+
+
+
+
+
+
+
+
+
+  
