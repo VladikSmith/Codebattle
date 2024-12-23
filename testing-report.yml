@@ -104,6 +104,42 @@
   status: pass   
 
 - summary: |
+    Кнопка "Edit" в созданном турнире
+  status: pass   
+
+- summary: |
+    Кнопка "Tournaments" в созданном турнире
+  status: pass   
+
+- summary: |
+    Кнопка "Toggle stream mode" в созданном туре
+  status: pass   
+
+- summary: |
+    Кнопка "Tournament details" в созданном туре
+  status: pass   
+
+- summary: |
+    Кнопка "Cancel" в созданном туре
+  status: pass   
+
+- summary: |
+    Кнопка "Start" в созданном туре
+  status: pass   
+
+- summary: |
+    Кнопка "Join" в созданном туре
+  status: pass   
+
+- summary: |
+    Кнопка "Leave" в созданном туре
+  status: pass   
+
+- summary: |
+    Кнопка "Restart" в созданном туре
+  status: pass   
+
+- summary: |
     Проверка поля ввода имени турнира при создании
   status: pass   
 
@@ -317,7 +353,7 @@
 
 - summary: |
      Создание задачи на странице задач
-  status: pass  
+  status: fail  
 
 - summary: |
      Переход на страницу пакетов задач
@@ -325,7 +361,7 @@
 
 - summary: |
      Просмотр задачи
-  status: pass  
+  status: fail  
 
 - summary: |
      Переход на страницу турниров из меню
