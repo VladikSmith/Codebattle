@@ -6,9 +6,9 @@
   prerequisites:
     Открыта страница регистрации
   test-data: |
-    Nickname - tester
-    Email - tester01@gmail.com
-    Password - tester123
+    Nickname - bratishka
+    Email - brat678@rambler.ru
+    Password - 123456789q
   steps:
     - Вводим никнейм
     - Вводим почту
@@ -25,8 +25,8 @@
   prerequisites:
     Открыта страница авторизации
   test-data: |
-    Email - tester01@gmail.com
-    Password - tester123
+    Email - brat678@rambler.ru
+    Password - 123456789q
   steps:
     - Вводим почту
     - Вводим пароль
