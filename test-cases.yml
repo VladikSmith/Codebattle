@@ -1566,4 +1566,147 @@
   expected-result: |
     Воспроизведение игры начинается с указанного времени
 
+- summary: |
+    Проверка кнопки настроек воспроизведенной игры
+  requirement: |
+    Пользователь может настроить воспроизвдение игры
+  prerequisites:
+    no-data
+  test-data: |
+    no-data
+  steps:
+    - нажать на кнопку шестеренки
+  expected-result: |
+    Появляются настройки воспроизведения игры
 
+- summary: |
+    Проверка ускорения воспроизвдения игры в настройках
+  requirement: |
+    Пользователь может ускорить воспроизведение игры в 2 раза
+  prerequisites:
+    Открыты настройки воспроизведения
+  test-data: |
+    no-data
+  steps:
+    - нажать на кнопку "x2"
+  expected-result: |
+    Воспроизведение игры ускоряется в два раза
+
+- summary: |
+    Копирование ссылки с игрой в истории
+  requirement: |
+    Пользователь скоировать в буфер обмена ссылку с игрой
+  prerequisites:
+    Открыты настройки воспроизведения
+  test-data: |
+    no-data
+  steps:
+    - нажать на кнопку ссылки
+  expected-result: |
+    Ссылка с игрой копируется в буфер обмена
+
+- summary: |
+    Проверка кнопки "Back to Home" в запущенной игре
+  requirement: |
+    Пользователь может вернуться на главный экран из запущенной игры
+  prerequisites:
+    no-data
+  test-data: |
+    no-data
+  steps:
+    - нажать на кнопку "Back to Home"
+  expected-result: |
+    Пользователь возвращается на главный экран
+
+- summary: |
+    Проверка кнопки "Send Feedback" в запущенной игре
+  requirement: |
+    Пользователь может отправить фидбек в поддержку
+  prerequisites:
+    no-data
+  test-data: |
+    no-data
+  steps:
+    - нажать на иконку "Send Feedback"
+  expected-result: |
+    Всплывает окно с возможностью отправки фидбека
+
+- summary: |
+    Проверка кнопки "Bug" в отправке фидбека
+  requirement: |
+    Пользователь может выбрать тип фидбека - Bug
+  prerequisites:
+    Открыта отправка фидбека
+  test-data: |
+    no-data
+  steps:
+    - нажать на кнопку "Bug"
+  expected-result: |
+    Выбирается тип фидбека - Bug
+
+- summary: |
+    Проверка кнопки "Improvement" в отправке фидбека
+  requirement: |
+    Пользователь может выбрать тип фидбека - Improvement
+  prerequisites:
+    no-data
+  test-data: |
+    no-data
+  steps:
+    - нажать на кнопку "Improvement"
+  expected-result: |
+    Выбирается тип фидбека - Improvement
+
+- summary: |
+    Проверка кнопки "Feature" в отправке фидбека
+  requirement: |
+    Пользователь может выбрать тип фидбека - Feature
+  prerequisites:
+    no-data
+  test-data: |
+    no-data
+  steps:
+    - нажать на кнопку "Feature"
+  expected-result: |
+    Выбирается тип фидбека - Feature
+
+- summary: |
+    Проверка поля ввода в отправке фидбека
+  requirement: |
+    Пользователь может писать текст в отправке фидбека
+  prerequisites:
+    no-data
+  test-data: |
+    no-data
+  steps:
+    - ввести сообщение в поле ввода
+  expected-result: |
+    Появляется введеное сообщение в поле ввода
+
+- summary: |
+    Проверка отправки фидбека
+  requirement: |
+    Пользователь может отправить фидбек
+  prerequisites:
+    no-data
+  test-data: |
+    no-data
+  steps:
+    - выбрать тип фидбека, например - Bug
+    - ввести сообщение, например - не работает кнопка назад
+    - нажать кнопку "SEND FEEDBACK"
+  expected-result: |
+    Отправляется фидбек в поддержку
+
+- summary: |
+    Закрытие окна с фидбеком
+  requirement: |
+    Пользователь может закрыть окно с фидбеком
+  prerequisites:
+    no-data
+  test-data: |
+    no-data
+  steps:
+    - нажать кнопку "close"
+  expected-result: |
+    Окно с фидбеком закрывается
