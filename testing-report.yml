@@ -390,3 +390,103 @@
 - summary: |
      Выход из аккаунта
   status: pass  
+
+- summary: |
+     Смена языка в игре
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Expand" в запущенной игре
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Show guide" в запущенной игре
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Skip guide" в инструкции
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Next" в инструкции
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Back" в инструкции
+  status: pass  
+
+- summary: |
+     Проверка кнопки переключения темы в запущенной игре
+  status: pass  
+
+- summary: |
+     Проверка фильтра с выбором языка программирования в запущенной игре
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Run" в запущенной игре
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Reset Solution" в запущенной игре
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Give up" в запущенной игре
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Open History" в запущенной игре
+  status: pass
+
+- summary: |
+     Проверка кнопки запуска/остановки просмотра воспроизведения игры
+  status: pass  
+
+- summary: |
+     Проверка элемента интерфейса перемотки воспроизведенной игры
+  status: pass  
+
+- summary: |
+     Проверка кнопки настроек воспроизведенной игры
+  status: pass  
+
+- summary: |
+     Проверка ускорения воспроизвдения игры в настройках
+  status: pass  
+
+- summary: |
+     Копирование ссылки с игрой в истории
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Back to Home" в запущенной игре
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Send Feedback" в запущенной игре
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Bug" в отправке фидбека
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Improvement" в отправке фидбека
+  status: pass  
+
+- summary: |
+     Проверка кнопки "Feature" в отправке фидбека
+  status: pass  
+
+- summary: |
+     Проверка поля ввода в отправке фидбека
+  status: pass 
+
+- summary: |
+     Проверка отправки фидбека
+  status: pass  
+
+- summary: |
+     Закрытие окна с фидбеком
+  status: pass
