@@ -932,7 +932,6 @@
   requirement: |
     При нажатии на имя открывается профиль выбранного пользователя
   prerequisites:
-    no-data
     Открыта вкладка LOBBY
   test-data: |
     no-data
