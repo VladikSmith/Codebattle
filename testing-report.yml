@@ -172,7 +172,7 @@
   status: pass   
 
 - summary: |
-    Пере турнира
+    Перезапуск турнира
   status: pass   
 
 - summary: |
@@ -320,7 +320,7 @@
   status: pass  
 
 - summary: |
-     Проверка кнопки приглашенных игр
+    Проверка отображения приглашенных игр
   status: pass  
 
 - summary: |
@@ -365,11 +365,11 @@
 
 - summary: |
     Выбор звука уведомлений в настройках своего профиля
-  status: pass  
+  status: fail  
 
 - summary: |
     Проверка изменения громкости в настройках своего профиля
-  status: pass  
+  status: fail  
 
 - summary: |
      Привязка аккаунта GitHub к профилю сайта
@@ -504,7 +504,7 @@
   status: pass  
 
 - summary: |
-    Выбор типа фидбека Bug
+    Выбор типа фидбека "Bug"
   status: pass  
 
 - summary: |
