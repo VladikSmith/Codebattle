@@ -1,7 +1,10 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/VladikSmith/qa-engineer-project-85/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/VladikSmith/qa-engineer-project-85/actions)
+
 Название: Codebattle
+
 Описание: Codebattle — игра, в которой два программиста одновременно выполняют одну задачу на разных языках программирования
+
 Технологический стек:
 - выполнил разделение на функциональные и нефункциональные требования, а также проанализировал и выделил неявные требования
 - разработал тест-кейсы и провел тестирование на их основе, проверив соответствие функциональных и нефункциональных требований
